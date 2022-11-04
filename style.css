@@ -1,0 +1,54 @@
+
+body {
+    font-family: Helvetica;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.header { 
+    border-bottom: 1px solid #ccc;
+    padding: .5em 1em;
+}
+.header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.nav{
+    float: left;
+}
+.nav h1{
+    font-size: 1.5em;
+    margin: .7em 0 .3em 0;
+    display: inline-block;
+}
+.nav img {
+    max-width: 100px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.content{
+    min-height: 500px;
+    position: relative;
+
+}
+.cbutton{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);  
+}
+.footer{
+    border-top: 1px solid #ccc;
+}
+.copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+}
