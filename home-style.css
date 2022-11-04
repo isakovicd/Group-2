@@ -34,20 +34,25 @@ a {
     position: relative;
 
 }
-.heading ul{
-    list-style: none;
-    display: flex;
-    text-align: center;
-    justify-content: center;
+.heading{
+    width: 100%;
 }
-.heading ul li{
+.heading a{
+    width: 33%;
+    display: inline-block;
+    padding: 5px 0;
+    color: #aaa;
+    
     text-align: center;
-    justify-content: center;
-    position: relative;
-    padding: 10 15;
+    background-color: rgb(59, 59, 189);
+}
+.heading money{
+    margin: 0;
+
 }
 .footer{
     border-top: 1px solid #ccc;
+    padding: .5em 1em;
 }
 .copyright {
     margin-top:15px;
