@@ -31,7 +31,7 @@ a {
 }
 .content{
     min-height: 500px;
-    position: relative;
+    display:block;
 
 }
 .heading{
@@ -46,10 +46,37 @@ a {
     text-align: center;
     background-color: rgb(59, 59, 189);
 }
-.heading money{
-    margin: 0;
-
+.activity{
+    text-align: left;
 }
+.link {
+    padding-bottom: 50px;
+    display: block;
+    
+}
+.transfer {
+    padding: 50px 0;
+    display:block;
+    
+ }
+ .pay {
+    padding: 50px 0;
+    display: block;
+ }
+ .withdraw {
+    padding: 50px 0;
+    display: block;
+ }
+ .deposit {
+    padding: 50px 0;
+    display: block;
+ }
+.details li {
+    padding: 5px 5px ;
+    display: inline-block;
+    
+}
+
 .footer{
     border-top: 1px solid #ccc;
     padding: .5em 1em;
